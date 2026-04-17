@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tr1 Pengembangan Apk & Web</title>
+
+        <style>
+            body{
+                font-family: Arial, sans-serif;
+                background: linear-gradient(to bottom, #0d1b2a, #000000);
+                margin: 0;
+                padding: 20px;
+                color: white;
+            }
+
+            .container {
+                background: #12224d;
+                color: white;
+                padding: 25px;
+                border-radius: 15px;
+                max-width: 800px;
+                margin: auto;
+                box-shadow: 0 0 20px rgba(0,0,225,0.5);
+            }
+
+            h1 {
+                text-align: center;
+                color: #4da6ff;
+            }
+
+            p {
+                text-align: justify;
+                color: #ddd;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+
+            th, td {
+                padding: 10px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #010614;
+                color: white;
+            }
+
+            tr:nth-child(even) {
+                background-color: #030f36;
+            }
+
+            tr:hover {
+                background-color: #041e96;
+            }
+
+            picture {
+                display: block;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            img {
+                border-radius: 3px solid #4da6ff;
+                box-shadow: 0 0 15px #4da6ff;
+            }
+
+            p {
+                text-align: center;
+                margin-top: 10px;
+            }
+
+            .profile {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 3px solid rgb(88, 86, 223);
+                box-shadow: 0 0 15px rgb(3, 3,51);
+            }
+
+            .list-lagu li {
+                background: rgba(0,0,225,0.2);
+                margin: 8px 0;
+                padding: 10px;
+                border-radius: 8px;
+                border-left: 4px solid #4da6ff;
+                transition: 0.3s;
+            }
+
+            .list-lagu li:hover {
+                background: rgba(0,0,225,0.5);
+                transform: translateX(5px);
+            }
+
+            .highlight {
+                color: #4da6ff;
+                font-weight: bold;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h1>Tr1 Biodata Diri</h1>
+
+            <p>Halo, nama saya <span class="highlight"> Ghania Fayyaza Siregar </span> dengan Nim <span class="highlight"> 7243250005 </span>. Saya memilih bidang bisnis digital karena memiliki minat untuk mengembangkan usaha toko hewn berbasis aplikasi yang menyediakan layanan konsultasi secara online. Selain itu, saya juga ingin menghadirkan klinik kecil seperti puskeswan sebagai penanganan langsung bagi hewan dalam kondisi darurat, sehingga dapat memberikan solusi yang praktis, cepat, dan bermanfaat bagi pemilik hewan. </p>
+
+            <p> Hobi saya adalah <span class="highlight"> melukis, bermain game, travelling</span>. Saya juga suka mendengar <span class="highlight"> music </span> terutama K-POP dari group Enhypen yang beranggotakan: </p>
+
+            <table>
+                <tr> 
+                    <th>NAMA</th>
+                    <th>POSISI</th>
+                    <th>UMUR</th>
+                </tr>
+
+                <tr>
+                    <td>Yang Jungwon</td>
+                    <td>Leader, Vokal, Dance</td>
+                    <td>22</td>
+                </tr>
+
+                <tr>
+                    <td>Lee Heeseung</td>
+                    <td>Vokal, Dance, Visual</td>
+                    <td>24</td>
+                </tr>
+
+                <tr>
+                    <td>Park Jongseong</td>
+                    <td>Vokal, Rapper, Dance</td>
+                    <td>23</td>
+                </tr>
+
+                <tr>
+                    <td>Sim jaeyun</td>
+                    <td>Rpper, Vokal, Dance</td>
+                    <td>23</td>
+                </tr>
+
+                <tr>
+                    <td>Park Sunghoon</td>
+                    <td>Vokal, Dance, Visual</td>
+                    <td>23</td>
+                </tr>
+
+                <tr>
+                    <td>Kim Sunoo</td>
+                    <td>Vokal, Dance, Visual</td>
+                    <td>22</td>
+                </tr>
+
+                <tr>
+                    <td>Nishimura Riki</td>
+                    <td>Rapper, Vokal,Main Dance</td>
+                    <td>20</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <h2>Lagu ter Favorit di Enhypen</h2>
+
+        <ul class="list-lagu">
+            <li><i>Intro</i> Fate </li>
+            <li><i>Intro</i> Foreshadow </li>
+            <li>Big Girl's Don't Cry</li>
+            <li>Moonstruck</li>
+            <li>Shout Out</li>
+            <li>Blossom</li>
+            <li>Lucifer</li>
+            <li>Drunked-Dazed</li>
+            <li>Your Eyes Only</li>
+            <li>Chacone</li>
+            <li>Given-Taken</li>
+            <li>Your Not For Sle</li>
+            <li>Fatal Trouble</li>
+            <li>Go Big or Go Home</li>
+            <li>No Way Back Now</li>
+        </ul>
+
+        <h3> ini adalah salah satu mv yang saya sukai </h3>
+        <video width="100%" controls autoplay muted loop>
+            <source src="big_girlsmv.mp4" type="video/mp4">
+        </video>
+
+        <picture>
+            <img src="nonton_wtl.jpeg" class="profile" width="500">
+        </picture>
+    </body>          
+</html>
